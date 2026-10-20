@@ -1,0 +1,40 @@
+{
+  "name": "春雨孕算工具（开发版）",
+  "appid": "",
+  "description": "孕周换算、胎儿体重估算与本地孕期档案",
+  "versionName": "0.1.0",
+  "versionCode": "10",
+  "transformPx": false,
+  "vueVersion": "3",
+  "locale": "zh-Hans",
+  "fallbackLocale": "zh-Hans",
+  "app-plus": {
+    "usingComponents": true,
+    "compilerVersion": 3,
+    "modules": {},
+    "distribute": {
+      "android": {
+        "permissions": []
+      },
+      "ios": {}
+    }
+  },
+  "mp-weixin": {
+    "appid": "wx1020f763d95bf61c",
+    "usingComponents": true,
+    "setting": {
+      "urlCheck": true,
+      "es6": true,
+      "minified": true
+    }
+  },
+  "h5": {
+    "title": "春雨孕算工具",
+    "router": {
+      "mode": "hash"
+    }
+  },
+  "uniStatistics": {
+    "enable": false
+  }
+}

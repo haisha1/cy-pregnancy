@@ -1,0 +1,28 @@
+{
+  "light": {
+    "imgIconGrid": "/static/figma/light/3702d.svg",
+    "imgIconChart": "/static/figma/light/69dcd.svg",
+    "imgIconUser": "/static/figma/light/68040.svg",
+    "imgIconRight": "/static/figma/light/39ac7.svg",
+    "imgIconUser1": "/static/figma/light/2889b.svg",
+    "imgStatusSignalWiFiBattery": "/static/figma/light/e7229.svg",
+    "imgIconBack": "/static/figma/light/ccd4a.svg",
+    "imgWeChatMenuClose": "/static/figma/light/6228b.svg",
+    "imgGlowBlue": "/static/figma/light/ff4fc.svg",
+    "imgGlowTeal": "/static/figma/light/37c2d.svg",
+    "imgGlowPink": "/static/figma/light/c0103.svg"
+  },
+  "dark": {
+    "imgIconGrid": "/static/figma/dark/11130.svg",
+    "imgIconChart": "/static/figma/dark/ab8a7.svg",
+    "imgIconUser": "/static/figma/dark/21f82.svg",
+    "imgIconRight": "/static/figma/dark/ede40.svg",
+    "imgIconUser1": "/static/figma/dark/2889b.svg",
+    "imgStatusSignalWiFiBattery": "/static/figma/dark/61fcf.svg",
+    "imgIconBack": "/static/figma/dark/6eb50.svg",
+    "imgWeChatMenuClose": "/static/figma/dark/d06da.svg",
+    "imgGlowBlue": "/static/figma/dark/60615.svg",
+    "imgGlowTeal": "/static/figma/dark/cede1.svg",
+    "imgGlowPink": "/static/figma/dark/dcadf.svg"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "light": {
+    "imgIconCalendar": "/static/figma/light/e95f5.svg",
+    "imgIconPulse": "/static/figma/light/e16dd.svg",
+    "imgIconRuler": "/static/figma/light/3414d.svg",
+    "imgIconDrop": "/static/figma/light/71b14.svg",
+    "imgIconDna": "/static/figma/light/0c544.svg",
+    "imgIconList": "/static/figma/light/b545b.svg",
+    "imgIconGrid": "/static/figma/light/fed62.svg",
+    "imgIconEdit": "/static/figma/light/3b1b8.svg",
+    "imgGlowBlue": "/static/figma/light/ff4fc.svg",
+    "imgGlowTeal": "/static/figma/light/37c2d.svg",
+    "imgGlowPink": "/static/figma/light/c0103.svg",
+    "imgStatusSignalWiFiBattery": "/static/figma/light/e7229.svg",
+    "imgIconBack": "/static/figma/light/e54f5.svg",
+    "imgWeChatMenuClose": "/static/figma/light/6228b.svg",
+    "imgIconChart": "/static/figma/light/f141b.svg",
+    "imgIconGrid1": "/static/figma/light/9e48c.svg",
+    "imgIconChart1": "/static/figma/light/69dcd.svg",
+    "imgIconUser": "/static/figma/light/832a2.svg"
+  },
+  "dark": {
+    "imgIconCalendar": "/static/figma/dark/e1bea.svg",
+    "imgIconPulse": "/static/figma/dark/8a5a7.svg",
+    "imgIconRuler": "/static/figma/dark/839fa.svg",
+    "imgIconDrop": "/static/figma/dark/337fc.svg",
+    "imgIconDna": "/static/figma/dark/08430.svg",
+    "imgIconList": "/static/figma/dark/78d4e.svg",
+    "imgIconGrid": "/static/figma/dark/3f094.svg",
+    "imgIconEdit": "/static/figma/dark/3b1b8.svg",
+    "imgGlowBlue": "/static/figma/dark/60615.svg",
+    "imgGlowTeal": "/static/figma/dark/cede1.svg",
+    "imgGlowPink": "/static/figma/dark/dcadf.svg",
+    "imgStatusSignalWiFiBattery": "/static/figma/dark/61fcf.svg",
+    "imgIconBack": "/static/figma/dark/4bcac.svg",
+    "imgWeChatMenuClose": "/static/figma/dark/d06da.svg",
+    "imgIconChart": "/static/figma/dark/f6060.svg",
+    "imgIconGrid1": "/static/figma/dark/9ec46.svg",
+    "imgIconChart1": "/static/figma/dark/ab8a7.svg",
+    "imgIconUser": "/static/figma/dark/c4390.svg"
+  }
+}

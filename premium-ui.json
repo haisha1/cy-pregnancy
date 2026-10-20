@@ -1,0 +1,34 @@
+{
+  "profile": "product-tool",
+  "sourceRoots": [
+    "components",
+    "pages",
+    "styles",
+    "store",
+    "utils",
+    "composables",
+    "api"
+  ],
+  "locale": "zh-CN",
+  "canonicalMap": "UX-CONTRACT.md",
+  "requiredCapabilities": [
+    "Select/Listbox",
+    "Date",
+    "Form",
+    "Scrollbar",
+    "Toast",
+    "CRUD"
+  ],
+  "ownership": { "Select/Listbox": "native", "Date": "native" },
+  "requiredCommands": ["unit", "e2e", "build", "typecheck"],
+  "commands": {
+    "unit": "npm test",
+    "e2e": "npm run test:e2e",
+    "build": "npm run build:mp-weixin",
+    "typecheck": "npm run typecheck"
+  },
+  "evidence": {
+    "crudFullFlow": "tests/e2e/core.spec.ts",
+    "failurePaths": "tests/storage.test.ts"
+  }
+}

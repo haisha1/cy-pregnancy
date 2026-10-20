@@ -1,0 +1,39 @@
+.ga-glass {
+  background: var(--glass-fallback);
+  border: 1px solid var(--glass-stroke);
+  border-radius: var(--radius-24);
+  box-shadow:
+    var(--shadow-card),
+    inset 0 1px 0 var(--glass-highlight);
+}
+/* #ifdef MP-WEIXIN */
+/* 手机WebView中多张卡片实时模糊会增加首次显示时的合成开销。
+   微信端保留相同玻璃配色、描边与阴影，以半透明填充替代实时滤镜。 */
+.ga-glass,
+.ga-floating {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+.ga-glass {
+  background: var(--glass-fill);
+}
+.ga-floating {
+  background: var(--glass-fillStrong);
+}
+/* #endif */
+/* #ifndef MP-WEIXIN */
+@supports (
+  (backdrop-filter: blur(24px)) or (-webkit-backdrop-filter: blur(24px))
+) {
+  .ga-glass {
+    background: var(--glass-fill);
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+  }
+  .ga-floating {
+    background: var(--glass-fillStrong);
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+  }
+}
+/* #endif */

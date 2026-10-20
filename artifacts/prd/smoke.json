@@ -1,0 +1,322 @@
+{
+  "results": [
+    {
+      "route": "/pages/index/index",
+      "title": "孕期超声工具",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/mine/account",
+      "title": "头像与昵称",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/mine/privacy",
+      "title": "登录与个人信息说明",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/pregnancy/edd",
+      "title": "预产期及孕周计算",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/growth/biometry",
+      "title": "胎儿生长与体重",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/growth/chart",
+      "title": "生长曲线",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/profile/index",
+      "title": "孕期档案",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/mine/index",
+      "title": "我的",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/index/all",
+      "title": "全部工具",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/knowledge/detail",
+      "title": "知识条目",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/knowledge/index",
+      "title": "超声知识库",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/mine/about",
+      "title": "关于",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/mine/data",
+      "title": "隐私与数据",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/mine/feedback-history",
+      "title": "反馈草稿与状态",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/mine/feedback",
+      "title": "反馈与本机草稿",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/mine/preferences",
+      "title": "通用偏好",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/mine/references",
+      "title": "参考文献与版本",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/pregnancy/dates",
+      "title": "孕周双向日期",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/profile/detail",
+      "title": "档案详情",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/profile/manage",
+      "title": "档案管理",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/services/index",
+      "title": "同步中心",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/share/index",
+      "title": "分享预览",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/timeline/detail",
+      "title": "产检安排详情",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/timeline/index",
+      "title": "产检时间表",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/advanced",
+      "title": "胎儿脏器与专科",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator",
+      "title": "超声多普勒 · UA",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/organ",
+      "title": "脏器指标",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=ua",
+      "title": "超声多普勒 · UA",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=mca",
+      "title": "超声多普勒 · MCA",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=dv",
+      "title": "超声多普勒 · DV",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=uta",
+      "title": "超声多普勒 · UtA",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=cpr",
+      "title": "脑胎盘比 · CPR",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=nt",
+      "title": "NT 参考",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=mvp",
+      "title": "羊水 · MVP",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=afi",
+      "title": "羊水 · AFI",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=age",
+      "title": "预产期年龄与背景风险",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=twin-growth",
+      "title": "双胎生长对比",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=ttts",
+      "title": "TTTS 分期参考",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=sfgr",
+      "title": "sFGR 分类参考",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=lhr",
+      "title": "肺头比 · LHR",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=cvr",
+      "title": "肺病灶容积比 · CVR",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=cvps",
+      "title": "CVPS 评分参考",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/calculator?tool=iut",
+      "title": "宫内输血工作表",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/services/index?kind=ocr",
+      "title": "报告识别 OCR",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/services/index?kind=ocr&stage=review",
+      "title": "报告识别 OCR",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/services/index?kind=login",
+      "title": "登录与备份",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/knowledge/index?kind=treatment",
+      "title": "宫内治疗知识",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/knowledge/index?kind=twins",
+      "title": "TAPS / TRAP 知识",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/knowledge/detail?id=K01",
+      "title": "脉络丛囊肿",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/knowledge/detail?id=T01",
+      "title": "TTTS · 双胎输血综合征",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/organ?key=left-kidney-length",
+      "title": "左肾长",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "/pages/tools/advanced?kind=twins",
+      "title": "双胎工具总览",
+      "width": 390,
+      "content": 390
+    },
+    {
+      "route": "ttts-320",
+      "width": 320,
+      "content": 320
+    }
+  ],
+  "errors": []
+}

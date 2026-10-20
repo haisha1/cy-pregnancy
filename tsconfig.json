@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "lib": ["ES2022", "DOM"],
+    "types": ["@dcloudio/types", "node"],
+    "baseUrl": ".",
+    "paths": { "@/*": ["./*"] }
+  },
+  "include": [
+    "main.ts",
+    "App.vue",
+    "env.d.ts",
+    "types/**/*.ts",
+    "engine/**/*.ts",
+    "data/**/*.ts",
+    "utils/**/*.ts",
+    "composables/**/*.ts",
+    "store/**/*.ts",
+    "components/**/*.vue",
+    "pages/**/*.vue",
+    "tests/**/*.ts",
+    "vite.config.ts",
+    "playwright.config.ts"
+  ],
+  "exclude": ["node_modules", "unpackage", "uni_modules", "wxcomponents"]
+}

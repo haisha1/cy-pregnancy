@@ -1,0 +1,9 @@
+node_modules/
+unpackage/
+playwright-report/
+test-results/
+test-results-*/
+.growth-e2e-results/
+.DS_Store
+.env.local
+.env.*.local

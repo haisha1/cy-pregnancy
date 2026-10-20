@@ -1,0 +1,7 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="70" height="16" viewBox="0 0 70 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Status / signal Wi-Fi battery">
+<path id="Vector" d="M2 13V10M6 13V7M10 13V4M14 13V1M23 5C28 1 33 1 38 5M26 8C29 6 32 6 35 8M29 11C30 10 31 10 32 11" stroke-width="1.5" stroke-linecap="round" stroke="#1A1A2E"/>
+<path id="Vector_2" d="M48 3H63C64.6569 3 66 4.34315 66 6V11C66 12.6569 64.6569 14 63 14H48C46.3431 14 45 12.6569 45 11V6C45 4.34315 46.3431 3 48 3Z" stroke-width="1.5" stroke-linecap="round" stroke="#1A1A2E"/>
+<path id="Vector_3" d="M69 7V10M48 6H63V11H48V6Z" stroke-width="1.5" stroke-linecap="round" stroke="#1A1A2E"/>
+</g>
+</svg>
