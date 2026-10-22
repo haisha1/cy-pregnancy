@@ -74,6 +74,8 @@ docker exec cy-pregnancy-h5 sh -c 'wget -q -O /dev/null http://127.0.0.1:8080/he
 STEP='6/6 发布结果'
 docker compose -f compose.h5.yml ps
 log 'H5 发布成功；服务器本机入口 http://127.0.0.1:18081'
-log '可通过 SSH 隧道验收；对外开放需先完成对应备案和域名配置'
+log "端口绑定：${H5_BIND_ADDRESS:-0.0.0.0}:18081 -> 容器 8080"
+log '公网绑定时访问 http://服务器公网IP:18081，需安全组和服务器防火墙放行 TCP 18081'
+log '宝塔域名反向代理目标：http://127.0.0.1:18081；公网服务需满足对应备案要求'
 log '微信小程序构建与审核仍是独立发布流程；H5 不提供小程序微信 code 登录'
 UPDATING=0

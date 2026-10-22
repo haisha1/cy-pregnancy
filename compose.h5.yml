@@ -8,8 +8,8 @@ services:
     mem_limit: ${H5_MEMORY_LIMIT:-96m}
     pids_limit: 64
     ports:
-      # 默认服务器本机访问；备案完成后按需设置 H5_BIND_ADDRESS=0.0.0.0。
-      - '${H5_BIND_ADDRESS:-127.0.0.1}:18081:8080'
+      # 默认支持公网 IP 和宝塔域名代理；仅本机访问时设置 H5_BIND_ADDRESS=127.0.0.1。
+      - '${H5_BIND_ADDRESS:-0.0.0.0}:18081:8080'
     logging:
       driver: local
       options:
