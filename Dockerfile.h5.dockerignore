@@ -1,0 +1,10 @@
+# 不发送小程序产物、源码、本地凭据或 node_modules。
+**
+!unpackage/
+!unpackage/dist/
+!unpackage/dist/build/
+!unpackage/dist/build/h5/
+!unpackage/dist/build/h5/**
+!deploy/
+!deploy/h5/
+!deploy/h5/nginx.conf

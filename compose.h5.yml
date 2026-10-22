@@ -1,0 +1,23 @@
+name: cy-pregnancy-h5
+services:
+  h5:
+    image: ${H5_IMAGE:?请通过 Jenkins H5 发布脚本执行}
+    container_name: cy-pregnancy-h5
+    restart: unless-stopped
+    init: true
+    mem_limit: ${H5_MEMORY_LIMIT:-96m}
+    pids_limit: 64
+    ports:
+      # 默认服务器本机访问；备案完成后按需设置 H5_BIND_ADDRESS=0.0.0.0。
+      - '${H5_BIND_ADDRESS:-127.0.0.1}:18081:8080'
+    logging:
+      driver: local
+      options:
+        max-size: '10m'
+        max-file: '3'
+    networks:
+      - service-internal
+networks:
+  service-internal:
+    external: true
+    name: ${SERVICE_NETWORK:-cy-pregnancy-internal}
